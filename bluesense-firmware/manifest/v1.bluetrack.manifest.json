@@ -6,7 +6,7 @@
       {
         "chipFamily": "ESP32",
         "parts": [
-            { "path": "../v1/bluetrack/bootloader.bin", "offset": 4096 },
+            { "path": "bootloader.bin", "offset": 4096 },
             { "path": "../v1/bluetrack/partitions.bin", "offset": 32768 },
             { "path": "../v1/bluetrack/ota.bin", "offset": 57344 },
             { "path": "../v1/bluetrack/BlueTrack.bin", "offset": 65536 }
