@@ -1,5 +1,5 @@
 {
-    "name": "Release BlueTrack V1",
+    "name": "Release BlueTrack V2",
     "home_assistant_domain": "BlueSense",
     "new_install_prompt_erase": false,
     "builds": [
@@ -10,7 +10,7 @@
             { "path": "bootloader.bin", "offset": 4096 },
             { "path": "partitions.bin", "offset": 32768 },
             { "path": "ota.bin", "offset": 57344 },
-            { "path": "../bluetrack/BlueTrack_V1.bin", "offset": 65536 }
+            { "path": "../bluetrack/BlueTrack_V2.bin", "offset": 65536 }
         ]
       }
     ]
