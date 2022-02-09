@@ -1,5 +1,5 @@
 {
-    "name": "Release BlueTrack V1",
+    "name": "Release BlueTrack v1",
     "home_assistant_domain": "BlueSense",
     "new_install_prompt_erase": false,
     "builds": [
