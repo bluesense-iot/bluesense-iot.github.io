@@ -1,0 +1,18 @@
+{
+    "name": "Release BlueTrack V2.1",
+    "home_assistant_domain": "BlueSense",
+    "new_install_prompt_erase": false,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "improv": false,
+        "parts": [
+            { "path": "bootloader.bin", "offset": 4096 },
+            { "path": "partitions.bin", "offset": 32768 },
+            { "path": "ota.bin", "offset": 57344 },
+            { "path": "../bluetrack/BlueTrack_V2.1.1.bin", "offset": 65536 }
+        ]
+      }
+    ]
+  }
+  
